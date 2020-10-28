@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assign 2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- 
+      Import the data from the provided JS file by attaching both with `<script>` tags 
+      and put the data script first.
+      Add one more `Object `with the same properties to the `Array` in the data file. 
+      Use your name for this new person object.
+      Use the data to build a series of contact cards.
+      Write a function that gets called after the `DOMContentLoaded` event which will
+      loop through the Array from the data file and create a card that looks like 
+      the sample one in the HTML. 
+      The function must also remove the sample card before looping through your data
+      to build the new cards. 
+      Use the provided CSS. You can edit the contents of the provided CSS selectors. 
+      There is no need to add more selectors. 
+      Create your own colour-scheme and replace any instances of `rebeccapurple` with 
+      a colour from your colour-scheme. 
+  
+  -->
+    <header>
+      <h1>People We Have Hired</h1>
+    </header>
+    <main>
+      <section class="cards">
+        <div class="card">
+          <div class="avatar">
+            <img
+              src="https://randomuser.me/api/portraits/med/men/57.jpg"
+              alt="person name image"
+            />
+          </div>
+          <h3 class="name">Person Name</h3>
+          <p class="email">person.name@work.org</p>
+          <p class="cell">613-727-4723</p>
+        </div>
+      </section>
+    </main>
+    <pre></pre>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
